@@ -30,6 +30,19 @@ rainha++;
 
 } while (rainha < 8);
 
+//MOVIMENTO CAVALO.
+
+printf("Movimento Cavalo\n");
+
+int movimento = 1;
+
+while ( movimento-- ){
+
+for( int cavalo = 0; cavalo < 2; cavalo++){
+    printf("Cima\n");
+}
+printf("Direita\n");
+}
 return 0;
 
 }
